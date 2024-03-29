@@ -13,15 +13,16 @@ body{
 }
 @import url('https://fonts.cdnfonts.com/css/ds-digital');
 
-.general h1{
+h1{
   text-align: center;
   color: rgb(25, 192, 25);
   font-family: 'DS-Digital', sans-serif;
-  font-size: 50px;
+  font-size: 40px;
                                                 
 }
 .inputs{
   border: 2px solid rgb(10, 168, 10);
+  border-radius: 5px;
   padding:20px;
   display: flex;
   align-items: center;
@@ -58,6 +59,6 @@ button{
 }
 button:hover{
   background-color: white;
-  color: black
-  border:2px solid rgb(17, 169, 17);
+  color: black;
+  border:3px solid rgb(17, 169, 17);
 }
